@@ -67,8 +67,7 @@ img {
     background-color: #E02C6D;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 40px;
+    padding: 10px 24px;
     cursor: pointer;
     font-weight: 700;
 }
@@ -115,6 +114,10 @@ img {
 
 .hero-image img {
     width: 80%;
+}
+
+.hero-content .btn {
+    border-radius: 40px;
 }
 
 /* Brand Section Start */
@@ -167,4 +170,42 @@ img {
     background-color: transparent;
     font-weight: 700;
     color: #E02C6D;
+}
+
+/* Newsletter Section Start */
+.newsletter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 90px;
+    align-items: center;
+}
+
+.content p {
+    margin: 16px 0;
+}
+
+/* Footer Section Start */
+.footer-section {
+    margin-top: 50px;
+    background-color: #0A0826;
+    /* color: white; */
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: white;
+}
+
+.footer-section p {
+    color: white;
+}
+
+.social-icon {
+    color: white;
+    margin-top: 16px;
+}
+
+.social-icon .f {
+    margin-left: 16px;
 }
