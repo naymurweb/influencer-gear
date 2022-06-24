@@ -55,3 +55,22 @@ img {
 }
 
 /* global item css */
+
+
+
+/* header section */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 34px;
+}
