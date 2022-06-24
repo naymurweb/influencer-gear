@@ -108,3 +108,15 @@ img {
 .hero-image img {
     width: 80%;
 }
+
+/* Brand Section Start */
+.brand-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 20px;
+}
