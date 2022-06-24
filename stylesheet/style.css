@@ -36,6 +36,14 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: 40px;
+    font-weight: 600;
+
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
 }
 
 p {
@@ -110,7 +118,7 @@ img {
 }
 
 /* Brand Section Start */
-.brand-section{
+.brand-section {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -119,4 +127,44 @@ img {
     border-top: 1px solid rgb(240, 240, 240);
     border-bottom: 1px solid rgb(240, 240, 240);
     padding: 20px;
+}
+
+/* Products Section Start */
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.product {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 18px 15px;
+}
+
+.rating {
+    display: flex;
+    font-size: 14px;
+}
+
+.icon {
+    color: #FB8200;
+    margin-right: 8px;
+}
+
+.end-btn {
+    text-align: end;
+    margin-top: 50px;
+}
+
+.btn2 {
+    text-align: end;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: #E02C6D;
 }
