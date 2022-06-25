@@ -68,6 +68,11 @@ img {
     padding: 10px 24px;
     cursor: pointer;
     font-weight: 700;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #FF5858;
 }
 
 /* Header Section start*/
@@ -114,10 +119,15 @@ img {
     background-repeat: no-repeat;
     background-size: contain;
     text-align: right;
+    transition: .7s linear;
 }
 
 .hero-image img {
     width: 85%;
+}
+
+.hero-image:hover {
+    transform: scale(0.7);
 }
 
 .hero-content .btn {
@@ -174,6 +184,12 @@ img {
     background-color: transparent;
     font-weight: 700;
     color: #E02C6D;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.btn2:hover {
+    color: #FF5858;
 }
 
 /* Newsletter Section Start */
@@ -189,12 +205,16 @@ img {
 }
 
 /* Footer Section Start */
+
 .footer-section {
     margin-top: 50px;
     background-color: #0A0826;
-    /* color: white; */
+    color: white;
     padding: 50px;
     text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .footer-section h3 {
@@ -243,6 +263,10 @@ img {
 
     .hero-image img {
         width: 90%;
+    }
+
+    .hero-image:hover {
+        transform: scale(1);
     }
 
 }
